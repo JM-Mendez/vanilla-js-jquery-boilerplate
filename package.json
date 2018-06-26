@@ -1,0 +1,28 @@
+{
+  "name": "davidmatas",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass scss/style.scss dist/css/style.css",
+    "watch": "npm run css -- -w & browser-sync start --server dist --files dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jquery": "^1.3.1",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "eslint": "^4.19.1",
+    "node-sass": "^3.4.2",
+    "prettier": "^1.13.6",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint": "^9.3.0"
+  },
+  "dependencies": {
+  }
+}
